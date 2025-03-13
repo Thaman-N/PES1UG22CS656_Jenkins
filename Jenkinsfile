@@ -14,7 +14,7 @@ pipeline {
         
         stage('Build') {
             steps {
-                sh 'g++ main.cpp -o output'
+                sh 'g++ maian.cpp -o output'
                 echo 'Build Stage Successful'
             }
         }
